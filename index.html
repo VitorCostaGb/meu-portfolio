@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,87 +10,186 @@
 
 <body>
 
-    <header>
-        <h1>Olá, eu sou o Vitor 👋</h1>
-        <p>Estou estudando Front-End e aprendendo a criar sites.</p>
+    <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+    </nav>
 
-        <button id="botao-foco">Venha focar</button>
-        <button id="botao-tema">🌙 Ativar modo escuro</button>
+    <header class="hero" id="inicio">
+
+        <div class="hero-texto">
+
+            <p class="saudacao">Olá, eu sou</p>
+
+            <h1>Vitor 👨‍💻</h1>
+
+            <p class="descricao">
+                Estou estudando Front-End e aprendendo a criar
+                sites modernos, bonitos e interativos.
+            </p>
+
+            <div class="botoes">
+                <button id="botao-foco">
+                    Ver minhas habilidades 🚀
+                </button>
+
+                <button id="botao-tema">
+                    🌙 Ativar modo escuro
+                </button>
+            </div>
+
+        </div>
+
     </header>
 
     <main>
 
+        <section id="sobre">
+
+            <h2>Sobre mim</h2>
+
+            <div class="sobre-conteudo">
+
+                <p>
+                    Meu nome é Vitor e estou começando minha jornada
+                    no desenvolvimento Front-End.
+                </p>
+
+                <p>
+                    Atualmente estou estudando HTML, CSS e JavaScript
+                    e criando projetos para colocar em prática tudo
+                    o que estou aprendendo.
+                </p>
+
+                <p>
+                    Meu objetivo é evoluir cada vez mais como
+                    desenvolvedor e conseguir minha primeira
+                    oportunidade na área de tecnologia.
+                </p>
+
+            </div>
+
+        </section>
+
         <section id="habilidades">
-            <h2>Quero ficar bom em:</h2>
+
+            <h2>Minhas habilidades</h2>
 
             <div class="cards">
 
                 <div class="card" id="card-html">
+                    <div class="icone">🌐</div>
                     <h3>HTML</h3>
                     <p>
-                        Linguagem usada para criar a estrutura
-                        das páginas web.
+                        Estrutura das páginas e organização
+                        dos elementos de um site.
                     </p>
                 </div>
 
                 <div class="card" id="card-css">
+                    <div class="icone">🎨</div>
                     <h3>CSS</h3>
                     <p>
-                        Linguagem usada para deixar as páginas
-                        bonitas e organizadas.
+                        Estilos, cores, layouts, animações
+                        e responsividade.
                     </p>
                 </div>
 
                 <div class="card" id="card-js">
+                    <div class="icone">⚡</div>
                     <h3>JavaScript</h3>
                     <p>
-                        Linguagem usada para adicionar
-                        interatividade às páginas.
+                        Interatividade, eventos e lógica
+                        para páginas web.
                     </p>
                 </div>
 
             </div>
+
+        </section>
+
+        <section id="projetos">
+
+            <h2>Meus Projetos</h2>
+
+            <p class="subtitulo">
+                Projetos desenvolvidos durante meus estudos.
+            </p>
+
+            <div class="projetos">
+
+                <div class="projeto">
+
+                    <div class="projeto-icone">🧮</div>
+
+                    <h3>Calculadora</h3>
+
+                    <p>
+                        Calculadora funcional desenvolvida
+                        com HTML, CSS e JavaScript.
+                    </p>
+
+                    <a href="calculadora/index.html"
+                       class="botao-projeto">
+                        Ver projeto →
+                    </a>
+
+                </div>
+
+                <div class="projeto">
+
+                    <div class="projeto-icone">💻</div>
+
+                    <h3>Meu Portfólio</h3>
+
+                    <p>
+                        Meu primeiro portfólio desenvolvido
+                        durante minha jornada no Front-End.
+                    </p>
+
+                    <a href="#inicio"
+                       class="botao-projeto">
+                        Ver projeto →
+                    </a>
+
+                </div>
+
+                <div class="projeto">
+
+                    <div class="projeto-icone">🚀</div>
+
+                    <h3>Próximo projeto</h3>
+
+                    <p>
+                        Em breve adicionarei um novo projeto
+                        desenvolvido com JavaScript.
+                    </p>
+
+                    <a href="#projetos"
+                       class="botao-projeto">
+                        Em breve
+                    </a>
+
+                </div>
+
+            </div>
+
         </section>
 
     </main>
 
+    <footer>
+
+        <p>
+            © 2026 Vitor — Desenvolvedor Front-End em formação.
+        </p>
+
+    </footer>
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
-<section id="projetos">
-
-    <h2>Meus Projetos</h2>
-
-    <div class="projetos">
-
-        <div class="projeto">
-            <h3>Meu primeiro site</h3>
-            <p>
-                Meu primeiro projeto desenvolvido
-                utilizando HTML e CSS.
-            </p>
-            <button>Ver projeto</button>
-        </div>
-
-        <div class="projeto">
-            <h3>Portfólio</h3>
-            <p>
-                Meu portfólio pessoal desenvolvido
-                durante meus estudos de Front-End.
-            </p>
-            <button>Ver projeto</button>
-        </div>
-
-        <div class="projeto">
-            <h3>Projeto JavaScript</h3>
-            <p>
-                Projeto criado para praticar
-                JavaScript e interatividade.
-            </p>
-            <button>Ver projeto</button>
-        </div>
-
-    </div>
-
-</section>
